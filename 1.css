@@ -1772,7 +1772,7 @@ input::-webkit-outer-spin-button {
 }
 
 .wrap-header__circle {
-    background: url(../img/_src/Ellipse.svg) no-repeat;
+    background: url(/img/Ellipse.svg) no-repeat;
     position: absolute;
     height: 272px;
     left: 90.26%;
@@ -1782,7 +1782,7 @@ input::-webkit-outer-spin-button {
 }
 
 .wrap-nav__bc {
-    background: url(../img/_src/bc-1.png) no-repeat -30px -40px;
+    background: url(/img/bc-1.png) no-repeat -30px -40px;
     height: 427px;
     position: absolute;
     left: 1px;
@@ -2006,7 +2006,7 @@ input::-webkit-outer-spin-button {
 }
 
 .wrap-help {
-    background: url("../img/_src/Vector 2.3.png") center top no-repeat, url("../img/_src/Vector 2.2.png") center bottom no-repeat;
+    background: url("/img/Vector 2.3.png") center top no-repeat, url("/img/Vector 2.2.png") center bottom no-repeat;
     height: 1168px
 }
 
