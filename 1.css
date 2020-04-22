@@ -1892,7 +1892,7 @@ input::-webkit-outer-spin-button {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    background: url(../doante/img/mission-bc.png) no-repeat 0;
+    background: url(../donate/img/mission-bc.png) no-repeat 0;
     height: 438px;
     padding-top: 30px
 }
