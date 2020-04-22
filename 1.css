@@ -1864,7 +1864,7 @@ input::-webkit-outer-spin-button {
 }
 
 .wrap-main__ellipse-left {
-    background: url(../img/_src/ellipse-left.png) no-repeat;
+    background: url(../donate/img/_src/ellipse-left.png) no-repeat;
     position: absolute;
     width: 253px;
     height: 253px;
