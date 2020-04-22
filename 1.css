@@ -2239,7 +2239,7 @@ input::-webkit-outer-spin-button {
 }
 
 .wrap-contact__block-ellipse {
-    background: url(../doante/img/wrap-contact__ellipse.svg) no-repeat right;
+    background: url(../donate/img/wrap-contact__ellipse.svg) no-repeat right;
     position: absolute;
     height: 155px;
     width: 155px;
@@ -2251,7 +2251,7 @@ input::-webkit-outer-spin-button {
 }
 
 .wrap-contact__block-ellipse2 {
-    background: url(../doante/img/wrap-contact__block-2.svg) no-repeat right;
+    background: url(../donate/img/wrap-contact__block-2.svg) no-repeat right;
     position: absolute;
     height: 198px;
     width: 198px;
