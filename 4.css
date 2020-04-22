@@ -1,0 +1,152 @@
+.textwidget {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.navigation {
+    display: flex!important;
+    justify-content: center!important;
+    flex-wrap: wrap!important
+}
+
+.page-number .current {
+    padding: 5px;
+    font-size: 16px
+}
+
+.screen-reader-text {
+    font-size: 20px;
+    line-height: 40px
+}
+
+.pagination .current .screen-reader-text {
+    position: static !important
+}
+
+.pagination .page-numbers {
+    line-height: 25px;
+    padding: 0 15px;
+    display: inline-block;
+    vertical-align: top;
+    color: #25486f;
+    font-weight: 700
+}
+
+.pagination .page-numbers.current {
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #fdeb31;
+    border-radius: 5px
+}
+
+.pagination .current {
+    display: inline-block;
+    line-height: 25px
+}
+
+.pagination .prev,
+.pagination .next {
+    background: #25486f;
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 5px
+}
+
+.pagination .prev:hover,
+.pagination .prev:focus,
+.pagination .next:hover,
+.pagination .next:focus {
+    background-color: #25486f;
+    text-decoration: none
+}
+
+.langflags {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0!important
+}
+
+.lang-item {
+    margin-left: 3px;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.lang-item a {
+    color: #b5c1ce
+}
+
+.current-lang a {
+    color: #fff!important
+}
+
+.lang-item:first-child a:first-child:after {
+    position: relative;
+    content: '/';
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+.wrap-news__block-small div {
+    margin-top: 10px
+}
+
+@media (max-width:640px) and (min-width:320px) {
+    .wrap-news__block-small div {
+        width: 100%
+    }
+    .wrap-news__block-right {
+        width: 100%
+    }
+    .wrap-news__block-small {
+        max-width: 100%!important
+    }
+    .wrap-news__link {
+        display: block;
+        text-align: center
+    }
+    .polylang-list li a {
+        font-size: 12px
+    }
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing>* {
+    z-index: 999
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing {
+    border: 2px solid #fdeb31;
+    border-radius: 8px;
+    max-width: 435px
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #fdeb31;
+    border-radius: 8px;
+    max-width: 435px
+}
+
+div.wpcf7-response-output {
+    margin: 0!important
+}
+
+.wrap-contact__block {
+    max-height: 100%!important
+}
+
+.wrap-nav__bc {
+    z-index: -111
+}
+
+.polylang-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0
+}

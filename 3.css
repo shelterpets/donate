@@ -1,0 +1,68 @@
+div.wpcf7 {
+    margin: 0;
+    padding: 0
+}
+
+div.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+div.wpcf7-response-output {
+    margin: 2em .5em 1em;
+    padding: .2em 1em;
+    border: 2px solid red
+}
+
+.wpcf7-form-control-wrap {
+    position: relative
+}
+
+.wpcf7-display-none {
+    display: none
+}
+
+div.wpcf7 .wpcf7-submit:disabled {
+    cursor: not-allowed
+}
+
+.t-form.t-form_inputs-total_1 {
+    display: table;
+}
+
+.t-form__inputsbox {
+    display: table;
+    -webkit-transition: max-height 0.3s cubic-bezier(.19,1,.22,1),opacity 0.3s linear;
+    transition: max-height 0.3s cubic-bezier(.19,1,.22,1),opacity 0.3s linear;
+    max-height: 5000px;
+}
+
+.t-form_inputs-total_1 .t-input-group {
+    max-width: 210px;
+    width: 210px;
+}
+
+.t-input-group {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.t-input-block {
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.t-form__submit {
+    display: table-cell;
+    vertical-align: bottom;
+    height: 100%;
+}
+
