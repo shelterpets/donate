@@ -1950,7 +1950,7 @@ input::-webkit-outer-spin-button {
 }
 
 .wrap-slider__ellipse {
-    background: url(../img/_src/wrap-mission__ellipse.svg) right no-repeat;
+    background: url(../img/wrap-mission__ellipse.svg) right no-repeat;
     height: 393px;
     position: absolute;
     right: 1px;
